@@ -12,11 +12,13 @@ public class main {
 		b.left.right = new BynaryTree(5);
 		b.right.left = new BynaryTree(6);
 		b.right.right = new BynaryTree(7);
+		b.right.right.left = new BynaryTree(8);
+		b.right.right.left.right = new BynaryTree(9);
 		
-		
-		b.display(0);
+		b.display();
 		b.flip();
-		b.display(0);
+		
+		b.display();
 	}
 	
 }
